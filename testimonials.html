@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TM TEST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="text-center">
+    <h2>Testimonials</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#quote-carousel" data-slide-to="1"></li>
+                </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-12">
+                    <img alt="quote_img" src="img/quote_icon.png">
+                      <p class="testimonials_text">Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis.</p>
+                      <div>
+                         <img alt="small_foto" src="img/sm_foto.png">
+                      </div>
+                      <p class="blue-text">Rob Singer, Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-12">
+                    <img alt="quote_img" src="img/quote_icon.png">
+                      <p class="testimonials_text">Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis.</p>
+                      <div>
+                         <img alt="small_foto" src="img/sm_foto.png">
+                      </div>
+                      <p class="blue-text">Rob Singer, Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>  
+          </div>
+       </div>
+  </section>
+  <!-- END TESTIMONIALS -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+            <!-- CAROUSEL SCRIPT -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('#quote-carousel').carousel({
+          pause: true, interval: 2500,
+          });
+        });
+      </script>
+  </body>
+</html> 
